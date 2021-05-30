@@ -12,7 +12,8 @@ import openpyxl
 wb = openpyxl.Workbook()
 ws = wb.active
 
-directory = r'C:\Users\Relative Sam\Desktop\dev_coding\Python\openpyxl'
+# Place the full path of the folder containing the .csv's in place of 'full_folder_path':
+directory = r'full_folder_path'
 
 # Loop through every .csv file in the folder above:
 for filename in os.scandir(directory):
